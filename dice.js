@@ -4,6 +4,7 @@ var randomSrc = "images/" + randomImage1;
 var image1 = document.querySelector(".img1");
 var changes = image1.setAttribute("src",randomSrc);
 
+// dummy
 
 var numbers2 = Math.floor(Math.random()*6)+1;
 var randomImage2 = "dice" + numbers2 +".png";
